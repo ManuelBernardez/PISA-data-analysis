@@ -4,7 +4,7 @@ Trabajo final individual de Introducción al Análisis de Datos (Tecnicatura Uni
 
 ## Preguntas guía
 1. ¿Qué factores del entorno de aprendizaje (distracción por dispositivos en clase, tiempo de pantallas por ocio, clima disciplinario y nivel socioeconómico) se asocian con mayores diferencias de desempeño en Matemática, Lectura y Ciencias?
-2. ¿Cómo usan los estudiantes los chatbots de inteligencia artificial para la escuela y cómo se relaciona ese uso con su desempeño?
+2. ¿Con qué frecuencia usan los estudiantes los chatbots de inteligencia artificial para la escuela (resumir, investigar, redactar, aprender) y cómo se relaciona cada uso con su desempeño?
 
 Los resultados describen asociaciones, no causas.
 
@@ -19,6 +19,6 @@ pip install -r requirements.txt
 ```
 
 ## Ejecución
-1. Abrir `data_challenge_pisa_argentina.ipynb` en VS Code o Jupyter y ejecutar todas las celdas. El notebook usa solo el CSV de `data/`.
-2. En Google Colab: subir el notebook y ejecutar la celda de carga, que permite subir el CSV.
-3. Para regenerar el CSV desde los archivos originales de PISA (no incluidos en el repositorio): descomprimir los archivos `.sav` en `data/raw/` y ejecutar `python preparar_datos.py`.
+1. Abrir `data_challenge_pisa_argentina.ipynb` en VS Code o Jupyter y ejecutar todas las celdas. El notebook usa solo los dos CSV de `data/` (estudiantes y escuelas).
+2. En Google Colab: subir el notebook y ejecutar la celda de carga, que permite subir los dos CSV.
+3. Para regenerar los CSV desde los archivos originales de PISA (no incluidos en el repositorio): descomprimir los archivos `.sav` en `data/raw/` y ejecutar `python preparar_datos.py`.

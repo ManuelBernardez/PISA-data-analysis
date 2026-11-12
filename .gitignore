@@ -8,3 +8,4 @@ materiales/
 # Archivos temporales
 __pycache__/
 .ipynb_checkpoints/
+claude.md
