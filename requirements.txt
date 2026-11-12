@@ -1,0 +1,12 @@
+# Probado en Python 3.13 (Windows 10)
+pandas==3.1.1
+numpy==2.5.4
+matplotlib==3.11.2
+seaborn==0.13.2
+# Solo para preparar_datos.py (leer los .sav de PISA)
+pyreadstat==1.3.7
+openpyxl==3.1.5
+# Para correr el notebook en VS Code o en el navegador
+notebook==7.6.5
+ipykernel==7.4.0
+nbconvert==7.17.2

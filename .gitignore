@@ -1,0 +1,10 @@
+# Entorno virtual
+.venv/
+
+# Datos crudos de PISA (pesados) y materiales de la cursada
+data/raw/
+materiales/
+
+# Archivos temporales
+__pycache__/
+.ipynb_checkpoints/
