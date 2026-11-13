@@ -9,3 +9,6 @@ materiales/
 __pycache__/
 .ipynb_checkpoints/
 claude.md
+
+# Copia de seguridad local del notebook
+*.backup.ipynb
