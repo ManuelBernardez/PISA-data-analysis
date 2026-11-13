@@ -19,6 +19,6 @@ pip install -r requirements.txt
 ```
 
 ## Ejecución
-1. Abrir `data_challenge_pisa_argentina.ipynb` en VS Code o Jupyter y ejecutar todas las celdas. El notebook usa solo los dos CSV de `data/` (estudiantes y escuelas).
-2. En Google Colab: subir el notebook y ejecutar la celda de carga, que permite subir los dos CSV.
+1. Abrir `data_challenge_pisa_argentina.ipynb` en VS Code o Jupyter y ejecutar todas las celdas. El notebook usa solo los tres CSV de `data/` (estudiantes, escuelas y códigos de faltantes).
+2. En Google Colab: subir el notebook y ejecutar la celda de carga, que permite subir los tres CSV.
 3. Para regenerar los CSV desde los archivos originales de PISA (no incluidos en el repositorio): descomprimir los archivos `.sav` en `data/raw/` y ejecutar `python preparar_datos.py`.

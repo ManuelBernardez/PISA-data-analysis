@@ -1,0 +1,10 @@
+variable,cuestionario,pagina_cuestionario,no_administrado,sin_respuesta,perdido_sistema
+ST250Q04JA,principal,8.0,526,508,3
+REPEAT,principal,27.0,526,397,6
+ST097Q01TA,principal,34.0,526,809,8
+ST097Q06DA,principal,34.0,526,1121,8
+ST326Q05JA,principal,56.0,526,2896,23
+ST438Q04DA,principal,61.0,526,2894,20
+ST322Q06JA,principal,62.0,526,3134,19
+IC170Q10DA,TIC,,643,4797,19
+IC177Q02JA,TIC,,643,4376,18
