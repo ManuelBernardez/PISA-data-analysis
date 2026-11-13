@@ -1,6 +1,6 @@
 # Data Challenge: PISA 2025 en Argentina
 
-Trabajo final individual de Introducción al Análisis de Datos (Tecnicatura Universitaria en Programación, UTN-FRH). Analiza las respuestas de los estudiantes argentinos de 15 años que participaron de PISA 2025 (OCDE) para estudiar qué factores del entorno de aprendizaje se asocian con su desempeño en Matemática, Lectura y Ciencias.
+Trabajo final de Introducción al Análisis de Datos (Tecnicatura Universitaria en Programación, UTN-FRH). Analiza las respuestas de los estudiantes argentinos de 15 años que participaron de PISA 2025 (OCDE) para estudiar qué factores del entorno de aprendizaje se asocian con su desempeño en Matemática, Lectura y Ciencias.
 
 ## Preguntas guía
 1. ¿Qué factores del entorno de aprendizaje (distracción por dispositivos en clase, tiempo de pantallas por ocio, clima disciplinario y nivel socioeconómico) se asocian con mayores diferencias de desempeño en Matemática, Lectura y Ciencias?
