@@ -105,4 +105,24 @@ print("Escuelas de Argentina:", escuelas.shape)
 estudiantes.to_csv("data/pisa2025_arg_estudiantes.csv", index=False)
 escuelas.to_csv("data/pisa2025_arg_escuelas.csv", index=False)
 tabla_faltantes.to_csv("data/pisa2025_arg_codigos_faltantes.csv", index=False)
+
+# --- Comparación con otros países (sección 4.8 del notebook) ----------------
+# Solo las variables que se comparan; nada del cuestionario TIC, que Chile y
+# Brasil no aplicaron.
+paises_comparacion = ["ARG", "CHL", "BRA", "ESP", "JPN"]
+vars_comparacion = (
+    ["CNT", "CNTSCHID", "ESCS", "ST097Q06DA",
+     "ST438Q01DA", "ST438Q02DA", "ST438Q03DA", "ST438Q04DA", "W_FSTUWT"]
+    + [f"PV{i}{materia}" for materia in ["MATH", "READ", "SCIE"] for i in [1, 5]]
+)
+pedazos = []
+for pedazo, meta in pyreadstat.read_file_in_chunks(
+    pyreadstat.read_sav, ARCHIVO_ESTUDIANTES, chunksize=100000, usecols=vars_comparacion
+):
+    pedazos.append(pedazo[pedazo["CNT"].isin(paises_comparacion)])
+comparacion = pd.concat(pedazos)
+print("Comparación entre países:", comparacion.shape)
+print(comparacion["CNT"].value_counts())
+comparacion.to_csv("data/comparacion_paises_pisa2025.csv", index=False)
+
 print("CSV guardados en data/")
